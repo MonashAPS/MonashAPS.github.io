@@ -1,0 +1,559 @@
+<!DOCTYPE html><html lang="en-US" ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="generator" content="Jekyll v4.3.3" /><meta property="og:title" content="Challenge Problems - 2021 Sem 2, Contest 1" /><meta name="author" content="Jackson Goerner" /><meta property="og:locale" content="en_US" /><meta name="description" content="Sports Loans" /><meta property="og:description" content="Sports Loans" /><link rel="canonical" href="https://monashaps.github.io//posts/problems-21-s2-c1/" /><meta property="og:url" content="https://monashaps.github.io//posts/problems-21-s2-c1/" /><meta property="og:site_name" content="Monash Code Binder" /><meta property="og:type" content="article" /><meta property="article:published_time" content="2021-08-23T11:00:00+10:00" /><meta name="twitter:card" content="summary" /><meta property="twitter:title" content="Challenge Problems - 2021 Sem 2, Contest 1" /><meta name="twitter:site" content="@twitter_username" /><meta name="twitter:creator" content="@Jackson Goerner" /><meta name="google-site-verification" content="google_meta_tag_verification" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jackson Goerner"},"dateModified":"2021-08-23T11:00:00+10:00","datePublished":"2021-08-23T11:00:00+10:00","description":"Sports Loans","headline":"Challenge Problems - 2021 Sem 2, Contest 1","mainEntityOfPage":{"@type":"WebPage","@id":"https://monashaps.github.io//posts/problems-21-s2-c1/"},"url":"https://monashaps.github.io//posts/problems-21-s2-c1/"}</script><title>Challenge Problems - 2021 Sem 2, Contest 1 | Monash Code Binder</title><link rel="shortcut icon" href="/assets/img/favicons/favicon.ico" type="image/x-icon"><link rel="icon" href="/assets/img/favicons/favicon.ico" type="image/x-icon"><link rel="manifest" href="/assets/img/favicons/manifest.json"><meta name='msapplication-config' content='/assets/img/favicons/browserconfig.xml'><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="/assets/img/favicons/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"><link rel="dns-prefetch" href="https://fonts.gstatic.com"><link rel="preconnect" href="https://www.google-analytics.com" crossorigin="use-credentials"><link rel="dns-prefetch" href="https://www.google-analytics.com"><link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="anonymous"><link rel="dns-prefetch" href="https://www.googletagmanager.com"><link rel="preconnect" href="cdn.jsdelivr.net"><link rel="dns-prefetch" href="cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha256-LA89z+k9fjgMKQ/kq4OO2Mrf8VltYml/VES+Rg0fh20=" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css"> <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script> <script defer src="https://cdn.jsdelivr.net/combine/npm/popper.js@1.15.0,npm/bootstrap@4/dist/js/bootstrap.min.js"></script> <script defer src="/assets/js/dist/post.min.js"></script> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { inlineMath: [['$', '$'], ['\\(', '\\)']] } }); </script> <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script id="MathJax-script" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> <script src="/assets/js/code-tabs.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css"> <script src="/assets/js/hints.js"></script> <script src="/assets/js/highlight.js"></script> <script defer src="/app.js"></script> <script defer src="https://www.googletagmanager.com/gtag/js?id="></script> <script> document.addEventListener("DOMContentLoaded", function(event) { window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', ''); }); </script><body data-spy="scroll" data-target="#toc"><div id="sidebar" class="d-flex flex-column align-items-end"><div class="profile-wrapper text-center"><div id="avatar"> <a href="/" alt="avatar" class="mx-auto"> <img src="/assets/img/icpc.png" alt="avatar" onerror="this.style.display='none'"> </a></div><div class="site-title mt-3"> <a href="/">Monash Code Binder</a></div><div class="site-subtitle font-italic">For Training / Contests</div></div><ul class="w-100"><li class="nav-item"> <a href="/" class="nav-link"> <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i> <span>HOME</span> </a><li class="nav-item"> <a href="/categories/" class="nav-link"> <i class="fa-fw fas fa-stream ml-xl-3 mr-xl-3 unloaded"></i> <span>CATEGORIES</span> </a><li class="nav-item"> <a href="/tags/" class="nav-link"> <i class="fa-fw fas fa-tags ml-xl-3 mr-xl-3 unloaded"></i> <span>TAGS</span> </a><li class="nav-item"> <a href="/archives/" class="nav-link"> <i class="fa-fw fas fa-archive ml-xl-3 mr-xl-3 unloaded"></i> <span>ARCHIVES</span> </a><li class="nav-item"> <a href="/about/" class="nav-link"> <i class="fa-fw fas fa-info ml-xl-3 mr-xl-3 unloaded"></i> <span>ABOUT</span> </a></ul><div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center"> <a href="https://discord.link/MonashICPC" aria-label="discord" class="order-3" target="_blank" rel="noopener"> <i class="fab fa-discord"></i> </a> <a href="https://www.facebook.com/groups/454114112027992" aria-label="facebook" class="order-4" target="_blank" rel="noopener"> <i class="fab fa-facebook"></i> </a> <a href=" javascript:location.href = 'mailto:' + ['admin','monashaps.com'].join('@')" aria-label="email" class="order-5" > <i class="fas fa-envelope"></i> </a> <a href="/feed.xml" aria-label="rss" class="order-6" > <i class="fas fa-rss"></i> </a> <span class="icon-border order-2"></span> <span id="mode-toggle-wrapper" class="order-1"> <i class="mode-toggle fas fa-adjust"></i> <script type="text/javascript"> class ModeToggle { static get MODE_KEY() { return "mode"; } static get DARK_MODE() { return "dark"; } static get LIGHT_MODE() { return "light"; } constructor() { if (this.hasMode) { if (this.isDarkMode) { if (!this.isSysDarkPrefer) { this.setDark(); } } else { if (this.isSysDarkPrefer) { this.setLight(); } } } var self = this; /* always follow the system prefers */ this.sysDarkPrefers.addListener(function() { if (self.hasMode) { if (self.isDarkMode) { if (!self.isSysDarkPrefer) { self.setDark(); } } else { if (self.isSysDarkPrefer) { self.setLight(); } } self.clearMode(); } self.updateMermaid(); }); } /* constructor() */ setDark() { $('html').attr(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE); sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE); } setLight() { $('html').attr(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE); sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE); } clearMode() { $('html').removeAttr(ModeToggle.MODE_KEY); sessionStorage.removeItem(ModeToggle.MODE_KEY); } get sysDarkPrefers() { return window.matchMedia("(prefers-color-scheme: dark)"); } get isSysDarkPrefer() { return this.sysDarkPrefers.matches; } get isDarkMode() { return this.mode == ModeToggle.DARK_MODE; } get isLightMode() { return this.mode == ModeToggle.LIGHT_MODE; } get hasMode() { return this.mode != null; } get mode() { return sessionStorage.getItem(ModeToggle.MODE_KEY); } /* get the current mode on screen */ get modeStatus() { if (this.isDarkMode || (!this.hasMode && this.isSysDarkPrefer) ) { return ModeToggle.DARK_MODE; } else { return ModeToggle.LIGHT_MODE; } } updateMermaid() { if (typeof mermaid !== "undefined") { let expectedTheme = (this.modeStatus === ModeToggle.DARK_MODE? "dark" : "default"); let config = { theme: expectedTheme }; /* re-render the SVG › <https://github.com/mermaid-js/mermaid/issues/311#issuecomment-332557344> */ $(".mermaid").each(function() { let svgCode = $(this).prev().children().html(); $(this).removeAttr("data-processed"); $(this).html(svgCode); }); mermaid.initialize(config); mermaid.init(undefined, ".mermaid"); } } flipMode() { if (this.hasMode) { if (this.isSysDarkPrefer) { if (this.isLightMode) { this.clearMode(); } else { this.setLight(); } } else { if (this.isDarkMode) { this.clearMode(); } else { this.setDark(); } } } else { if (this.isSysDarkPrefer) { this.setLight(); } else { this.setDark(); } } this.updateMermaid(); } /* flipMode() */ } /* ModeToggle */ let toggle = new ModeToggle(); $(".mode-toggle").click(function() { toggle.flipMode(); }); </script> </span></div></div><div id="topbar-wrapper" class="row justify-content-center topbar-down"><div id="topbar" class="col-11 d-flex h-100 align-items-center justify-content-between"> <span id="breadcrumb"> <span> <a href="/"> Posts </a> </span> <span>Challenge Problems - 2021 Sem 2, Contest 1</span> </span> <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i><div id="topbar-title"> Post</div><i id="search-trigger" class="fas fa-search fa-fw"></i> <span id="search-wrapper" class="align-items-center"> <i class="fas fa-search fa-fw"></i> <input class="form-control" id="search-input" type="search" aria-label="search" placeholder="Search..."> <i class="fa fa-times-circle fa-fw" id="search-cleaner"></i> </span> <span id="search-cancel" >Cancel</span></div></div><div id="main-wrapper"><div id="main"><div class="row"><div id="post-wrapper" class="col-12 col-lg-11 col-xl-8"><div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4"><h1 data-toc-skip>Challenge Problems - 2021 Sem 2, Contest 1</h1><div class="post-meta text-muted d-flex flex-column"><div> <span class="semi-bold"> Jackson Goerner </span> <span class="timeago " data-toggle="tooltip" data-placement="bottom" title="Mon, Aug 23, 2021, 11:00 AM +1000" prep="on" > Aug 23, 2021 <i class="unloaded">2021-08-23T11:00:00+10:00</i> </span></div><div> <span class="readtime" data-toggle="tooltip" data-placement="bottom" title="3743 words">20 min</span></div></div><div class="post-content"><h2 id="sports-loans">Sports Loans</h2><h3 id="statement">Statement</h3><p>Andrew is head of the sports club, and manages the inventory. Part of Andrew’s job is loaning footballs to people, and collecting those footballs once they have been used.</p><p>At the start of the day, Andrew has \(r\) footballs in stock, and knows that \(p+q\) people will approach him over the course of the day. \(p\) people will request a football, while \(q\) people will return a football. What Andrew does not know is the order in which these people will approach him.</p><p>Of course, Andrew wants to be able to give a football to everyone who requests one, when they request one. So for example if the first \(r+1\) people want a football, Andrew can’t give a football to the last person.</p><p>Andrew wants to know the probability that the above situation does <strong>not</strong> occur today, in other words the probability that every time someone requests a football, Andrew has one in stock.</p><h3 id="input--output">Input / Output</h3><p>Input will consist of three space separated integers, \(p, q\) and \(r\), as defined in the problem statement. Output should be a single number, the probability that Andrew will always be able to give a football to anyone who requests it. This number should have absolute error less than \(10^{-8}\).</p><h3 id="example-run">Example Run</h3><p>Input</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre>4 1 3
+</pre></table></code></div></div><p>Output</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre>0.8
+</pre></table></code></div></div><p>Since there is a 20% chance that the “return a football” event occurs before all 4 “request a football” events, which would cause problems.</p><h3 id="hints--solution">Hints / Solution</h3><div class="unlock"><p><button class="button_unlock hint">Hint 1</button></p><div class="show"><p><strong>Hint 1</strong></p><p>Simulating won’t be enough, because of the sizes of <code class="language-plaintext highlighter-rouge">p</code>, <code class="language-plaintext highlighter-rouge">q</code> and <code class="language-plaintext highlighter-rouge">r</code>. What you should instead do is try to find a general form for the probability, based on <code class="language-plaintext highlighter-rouge">p</code>, <code class="language-plaintext highlighter-rouge">q</code>, <code class="language-plaintext highlighter-rouge">r</code>.</p><p>Start by trying to come up with a visualisation of this process in 2-dimensional space. What do good/bad orderings of people look like?</p></div></div><div class="unlock"><p><button class="button_unlock hint">Hint 2</button></p><div class="show"><p><strong>Hint 2</strong></p><p>The visualisation we are looking for is one where we begin at point \((r, 0)\), and for each person, we either move to the right 1 unit (person returns a football), or up 1 unit (person requests a football).</p><p>A run is then invalid when we cross (not touch) the line \(y = x\). For an invalid run, what happens when we flip all points across the line \(y = x + 1\) before the intersection?</p><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/posts/cp1/grid3.png" alt="" /></p><p>What is the total number of paths from this new starting point to \((q+r, p)\)?</p></div></div><div class="unlock"><p><button class="button_unlock solution">Solution</button></p><div class="show"><p><strong>Solution</strong></p><p>To handle the easy cases, if \(p \leq r\), then the probability is 1 (We can’t possibly run out of footballs). If \( p &gt; r + q\), then the probability is 0 (We can’t possibly handle everyones request). We assume neither of these is the case for the following discussion.</p><p>Let’s first view the problem through a different lens, to make the solution a bit more natural. Imagine Andrew is a point on the 2D plane. Whenever a person approaches him to give him a football, he moves one unit in the positive \(x\)-axis, and whenever a person approaches him to request a football, he moves one unit in the positive \(y\)-axis.</p><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/posts/cp1/grid1.png" alt="" /></p><p>We can think of this as the \(x\)-axis representing footballs returned, while the \(y\) axis represents footballs taken. Since we start with \(r\) footballs, it might make sense to start Andrew at the position \((r, 0)\). Then, when Andrew is on the line \(y = x\), we know that Andrew has exactly 0 balls in inventory. Therefore we want to know the probability that Andrew never dips above this line (or equivalently, that Andrew never touches the line \(y = x + 1\)).</p><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/posts/cp1/grid2.png" alt="" /></p><p>Since any ordering of the $p+q$ people is equally likely, we can simply count all possible distinct paths from \((r, 0)\) to \((r+q, p)\), and the proportion of these paths which sit below the line \(y = x+1\) is the probability we want. The number of all possible paths is \({p+q \choose p} = {p+q \choose q}\), since we can just pick the locations of the \(p\) (or \(q\)) people in our ordering.</p><p>Now, counting the number of paths that avoid the line is tough, but we can do something similar by finding a <a href="https://www.wikiwand.com/en/Bijection">bijection</a> between invalid paths and some other collecion.</p><p>Rather than considering paths from \((r, 0)\) to \((r+q, p)\), what if we instead started from the same point, reflected on the line \(y = x+1\)? Then we’d be looking at paths from \((-1, r+1)\) to \((r+q, p)\). Note that every path between these two points needs to touch the line \(y = x+1\). Furthermore, we can turn each of these paths into an invalid path from \((r, 0)\) to \((r+q, p)\) in the following way:</p><ol><li>Find the first intersection of the path with the line \(y = x + 1\) (Some intersection must exist).<li>Mirror the path along the line \(y = x + 1\) before this intersection.</ol><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/posts/cp1/grid3.png" alt="" /></p><p>Since \((-1, r+1)\) is the mirrored version of \((r, 0)\), all of these new paths are distinct paths from \((r, 0)\) to \((r+q, p)\). Furthermore, since the original paths hit the line, each of the these mirrored paths also hit the line and are therefore invalid. Hopefully it’s also easy to see that every possible invalid path can be reached via this mirror method.</p><p>Therefore, the total number of invalid paths is equal to the total number of <em>any</em> of path between \((-1, r+1)\) and \((r+q, p)\). By the same argumentation as before, there are \({(r+q+1) + (p-r-1) \choose r+q+1} = {p+q \choose p - r - 1}\) possible paths.</p><p>Now that we know how many paths there are in total, and how many paths are invalid, we can calculate some probabilities. The probability that Andrew does run into this situation (That we have a bad path) is:</p>\[P(\text{bad}) = \frac{p+q \choose p - r - 1}{p+q \choose p} = \frac{(p+q)!p!q!}{(p+q)!(p-r-1)!(q+r+1)!} = \frac{\prod^r_{i=0}p-i}{\prod^r_{i=0}q+i+1}.\]<p>The probability the question asks for is then just \(P(\text{good}) = 1 - P(\text{bad})\). Note that the cancellation above is required to fit within precision and time limits, as we can’t compute \(p!\) for large enough \(p\) within time.</p><div class="code-tab"> <button class="code-tablinks CHALLENGE-1-link" onclick="openCodeTab(event, 'CHALLENGE-1', 'CHALLENGE-1-Python')">Python</button> <button class="code-tablinks CHALLENGE-1-link" onclick="openCodeTab(event, 'CHALLENGE-1', 'CHALLENGE-1-CPP')">CPP</button></div><div id="CHALLENGE-1-Python" class="code-tabcontent CHALLENGE-1"><div class="language-python highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre><td class="rouge-code"><pre><span class="c1"># Read 3 ints
+</span><span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">r</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="nf">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nf">input</span><span class="p">().</span><span class="nf">split</span><span class="p">()))</span>
+<span class="k">if</span> <span class="n">p</span> <span class="o">&lt;=</span> <span class="n">r</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">p</span> <span class="o">&gt;</span> <span class="n">r</span> <span class="o">+</span> <span class="n">q</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">p_bad</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">r</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">p_bad</span> <span class="o">*=</span> <span class="p">(</span><span class="n">p</span><span class="o">-</span><span class="n">i</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">q</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+    <span class="c1"># Be safe with 10 precision points.
+</span>    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="mi">1</span><span class="o">-</span><span class="n">p_bad</span><span class="si">:</span><span class="p">.</span><span class="mi">10</span><span class="n">f</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+</pre></table></code></div></div></div><div id="CHALLENGE-1-CPP" class="code-tabcontent CHALLENGE-1"><div class="language-cpp highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+</pre><td class="rouge-code"><pre><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;iomanip&gt;</span><span class="cp">
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+
+    <span class="c1">// p, q can be large, use long long.</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">r</span><span class="p">;</span>
+
+    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">p</span> <span class="o">&gt;&gt;</span> <span class="n">q</span> <span class="o">&gt;&gt;</span> <span class="n">r</span><span class="p">;</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">&lt;=</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">p</span> <span class="o">&gt;</span> <span class="n">r</span> <span class="o">+</span> <span class="n">q</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="mi">0</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="kt">double</span> <span class="n">p_bad</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;=</span> <span class="n">r</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">p_bad</span> <span class="o">=</span> <span class="n">p_bad</span> <span class="o">*</span> <span class="p">((</span><span class="kt">double</span><span class="p">)(</span><span class="n">p</span><span class="o">-</span><span class="n">i</span><span class="p">))</span> <span class="o">/</span> <span class="p">((</span><span class="kt">double</span><span class="p">)(</span><span class="n">q</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">));</span>
+        <span class="p">}</span>
+
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">setprecision</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">fixed</span> <span class="o">&lt;&lt;</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">p_bad</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></table></code></div></div></div></div></div><h2 id="optimal-farming">Optimal Farming</h2><h3 id="statement-1">Statement</h3><p>Amy has just bought a farm in the outback, and wants to start selling tomatoes. Some of the crops in the farm are already tomatoes, but there are others she wants to get rid of and replace with tomatoes.</p><p>Amy has employed the help of Square Tomatoes Group™. Amy can pay the group $\(s\) to plant an \(s \times s\) grid of crops with tomatoes (It doesn’t matter if the existing crop was tomatoes or not, all grid squares become tomatoes. This square can also exceed Amy’s farm). Amy wants to minimise her cost to Square Tomatoes Group™ such that all crops are tomatoes.</p><h3 id="input--output-1">Input / Output</h3><p>Input starts with two integers \(1 \leq l, w \leq 30\), the length and width of the farm, separated by space. Input then contains \(l\) lines, each containing a string of \(w\) characters. Each of these characters represent a grid square in the farm. This square is a tomato crop if and only if the character printed is a <code class="language-plaintext highlighter-rouge">T</code>.</p><p>Output should be a single integer, the minimum Amy has to pay to fill her farm with tomato crops.</p><h3 id="example-test">Example Test</h3><p>Input</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre>3 4
+PWTT
+TCTT
+TTTL
+</pre></table></code></div></div><p>Output</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre>3
+</pre></table></code></div></div><p>Explanation: We can pay Square Tomatoes Group™ \($2\) to plant tomatoes in the top-left 2x2 area, and then \($1\) to plant tomatoes in the final bottom-right square.</p><h3 id="hints--solution-1">Hints / Solution</h3><div class="unlock"><p><button class="button_unlock hint">Hint 1</button></p><div class="show"><p><strong>Hint 1</strong></p><p>Note that if every row and column has a square with no tomato, then the answer is rather obvious. The problem only gets interesting when an entire row/column is already tomatoes.</p></div></div><div class="unlock"><p><button class="button_unlock hint">Hint 2</button></p><div class="show"><p><strong>Hint 2</strong></p><p>Suppose we don’t go for the easy solution of just using a massive square to cover our farm, and have a cheaper solution. Then one of the rows or columns in the farm must be untouched. How can we recurse from here?</p></div></div><div class="unlock"><p><button class="button_unlock solution">Solution</button></p><div class="show"><p><strong>Solution</strong></p><p>We will generalise and compute \(\text{cost}(x1, x2, y1, y2)\), the cost of converting the rectangle \([x1, x2), [y1, y2)\) all to tomatoes. The question is asking us to compute \(\text{cost}(0, w, 0, l)\).</p><p>Note that we can always spend \($\text{max}(x2-x1, y2-y1)\) and cover the rectangle, by using a square that exceeds the bounds. Also, note that if a collection of squares overlaps every column of the rectangle, then the cost of planting all of these squares must be at least \(x2-x1\), and similarly if every row of the rectangle is overlapped by a square, the minimum cost is \(y2-y1\).</p><p>With this in mind, suppose there was a cheaper selection of squares that converts this entire rectangle to tomatoes. Then from the logic above, there must be some column or row which is not touched by these planted squares (A column or row that is already all tomatoes). This column/row separates our rectangle in two, and so we can solve the subproblem of \(\text{cost}\) on each of these rectangles.</p><p>For example, in the input given, we have a \(3 \times 4\) rectangle. The easy solution is to cover the entire thing with a \(4 \times 4\) square, costing \($4\).</p><p>But, column 2 is all tomatoes, so we can solve the subproblem on the left and right hand sides of this column, and see if doing this is cheaper. Continuing along, we find the left subproblem costs \($2\), and the right subproblem costs \($1\), and so the final result is \($3\).</p><p>We can achieve this within the time limit with <a href="http://blog.monashicpc.com/new_binder/posts/dp/">Dynamic Programming</a>.</p><p>The recursive definition is:</p>\[\text{cost}(x1, x2, y1, y2) := \text{min} \begin{cases} (x2 - x1) \times (y2 - y1) &amp;\\ \text{cost}(x1, c, y1, y2) + \text{cost}(c, x2, y1, y2) &amp; x1 &lt; c &lt; x2, \text{column } c \text{ from } y1 \to y2 \text{ all tomato.}\\ \text{cost}(x1, x2, y1, r) + \text{cost}(x1, x2, r, y2) &amp; y1 &lt; r &lt; y2, \text{row } r \text{ from } x1 \to x2 \text{ all tomato.} \end{cases}\]<p>The base case being that \(\text{cost}(x1, x1+1, y1, y1+1) = b\), where \(b\) is 0 if it’s a tomato plant, and 1 otherwise. In order to know when an entire segment of a row/column is all tomatoes, we can also use DP, by breaking up each square into individual rows / columns.</p><p>For both of these we have \(l^2w^2\) values to compute, and each of the values takes \(l + w\) operations to compute (In the recursive definition, we might recurse for every row and column in the square). So the total cost is about \(30^5 \approx 2 \times 10^7\)</p><div class="code-tab"> <button class="code-tablinks CHALLENGE-2-link" onclick="openCodeTab(event, 'CHALLENGE-2', 'CHALLENGE-2-Python')">Python</button> <button class="code-tablinks CHALLENGE-2-link" onclick="openCodeTab(event, 'CHALLENGE-2', 'CHALLENGE-2-CPP')">CPP</button></div><div id="CHALLENGE-2-Python" class="code-tabcontent CHALLENGE-2"><div class="language-python highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+</pre><td class="rouge-code"><pre><span class="kn">import</span> <span class="n">sys</span>
+<span class="c1"># Maximum recursion for this problem is actually like 60, but better safe than sorry.
+</span><span class="n">sys</span><span class="p">.</span><span class="nf">setrecursionlimit</span><span class="p">(</span><span class="mi">10000</span><span class="p">)</span>
+
+<span class="n">l</span><span class="p">,</span> <span class="n">w</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="nf">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nf">input</span><span class="p">().</span><span class="nf">split</span><span class="p">()))</span>
+
+<span class="n">grid</span> <span class="o">=</span> <span class="p">[</span><span class="nf">input</span><span class="p">()</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">l</span><span class="p">)]</span>
+
+<span class="c1"># is the rectangle from x1 to x2, y1 to y2 all tomato? (RHS exclusive)
+</span><span class="n">tomato_dp</span> <span class="o">=</span> <span class="p">[[[[</span><span class="bp">None</span> <span class="k">for</span> <span class="n">_1</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">31</span><span class="p">)]</span> <span class="k">for</span> <span class="n">_2</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">31</span><span class="p">)]</span> <span class="k">for</span> <span class="n">_3</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">31</span><span class="p">)]</span> <span class="k">for</span> <span class="n">_4</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">31</span><span class="p">)]</span>
+<span class="k">def</span> <span class="nf">all_tomato</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">tomato_dp</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">tomato_dp</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">x1</span> <span class="o">&lt;</span> <span class="n">x2</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">tomato_dp</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">=</span> <span class="nf">all_tomato</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">)</span> <span class="ow">and</span> <span class="nf">all_tomato</span><span class="p">(</span><span class="n">x2</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">y1</span> <span class="o">&lt;</span> <span class="n">y2</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">tomato_dp</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">=</span> <span class="nf">all_tomato</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="ow">and</span> <span class="nf">all_tomato</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y2</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">y2</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># y2 = y1+1, x2 = x1+1.
+</span>        <span class="n">tomato_dp</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">=</span> <span class="n">grid</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">y1</span><span class="p">]</span> <span class="o">==</span> <span class="sh">"</span><span class="s">T</span><span class="sh">"</span>
+    <span class="k">return</span> <span class="n">tomato_dp</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span>
+
+<span class="n">cost_dp</span> <span class="o">=</span> <span class="p">[[[[</span><span class="bp">None</span> <span class="k">for</span> <span class="n">_1</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">31</span><span class="p">)]</span> <span class="k">for</span> <span class="n">_2</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">31</span><span class="p">)]</span> <span class="k">for</span> <span class="n">_3</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">31</span><span class="p">)]</span> <span class="k">for</span> <span class="n">_4</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">31</span><span class="p">)]</span>
+<span class="k">def</span> <span class="nf">cost</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">cost_dp</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">cost_dp</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">x1</span> <span class="o">==</span> <span class="n">x2</span> <span class="ow">or</span> <span class="n">y1</span> <span class="o">==</span> <span class="n">y2</span><span class="p">:</span>
+        <span class="c1"># Empty rectangle.
+</span>        <span class="k">return</span> <span class="mi">0</span>
+    <span class="n">cur_min</span> <span class="o">=</span> <span class="nf">max</span><span class="p">(</span><span class="n">x2</span><span class="o">-</span><span class="n">x1</span><span class="p">,</span> <span class="n">y2</span><span class="o">-</span><span class="n">y1</span><span class="p">)</span>
+    <span class="c1"># Otherwise, there is an empty row/column we can exclude. Simply solve this suproblem.
+</span>    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nf">all_tomato</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">c</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">):</span>
+            <span class="n">cur_min</span> <span class="o">=</span> <span class="nf">min</span><span class="p">(</span><span class="nf">cost</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">)</span> <span class="o">+</span> <span class="nf">cost</span><span class="p">(</span><span class="n">c</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">),</span> <span class="n">cur_min</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nf">all_tomato</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">r</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+            <span class="n">cur_min</span> <span class="o">=</span> <span class="nf">min</span><span class="p">(</span><span class="nf">cost</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span> <span class="o">+</span> <span class="nf">cost</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">r</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">y2</span><span class="p">),</span> <span class="n">cur_min</span><span class="p">)</span>
+    <span class="n">cost_dp</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">=</span> <span class="n">cur_min</span>
+    <span class="k">return</span> <span class="n">cost_dp</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="nf">cost</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">w</span><span class="p">))</span>
+</pre></table></code></div></div></div><div id="CHALLENGE-2-CPP" class="code-tabcontent CHALLENGE-2"><div class="language-cpp highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+</pre><td class="rouge-code"><pre><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;string&gt;</span><span class="cp">
+</span>
+<span class="cp">#define FOR(i,j,k) for(int i=j; i&lt;k; i++)
+#define MAX(a, b) (a &gt; b) ? a : b
+#define MIN(a, b) (a &lt; b) ? a : b
+#define MAXN 30
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">l</span><span class="p">,</span> <span class="n">w</span><span class="p">;</span>
+
+<span class="k">const</span> <span class="kt">int</span> <span class="n">UNKNOWN</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">DP_TOMATO</span><span class="p">[</span><span class="n">MAXN</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">MAXN</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">MAXN</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">MAXN</span><span class="o">+</span><span class="mi">1</span><span class="p">];</span>
+<span class="kt">int</span> <span class="n">DP_COST</span><span class="p">[</span><span class="n">MAXN</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">MAXN</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">MAXN</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">MAXN</span><span class="o">+</span><span class="mi">1</span><span class="p">];</span>
+<span class="n">string</span> <span class="n">grid</span><span class="p">[</span><span class="n">MAXN</span><span class="o">+</span><span class="mi">1</span><span class="p">];</span>
+
+<span class="kt">bool</span> <span class="nf">tomato</span><span class="p">(</span><span class="kt">int</span> <span class="n">x1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">x2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y2</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Is the rectangle [x1, x2), [y1, y2) already tomato?</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">DP_TOMATO</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">!=</span> <span class="n">UNKNOWN</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">DP_TOMATO</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">];</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">x1</span> <span class="o">&lt;</span> <span class="n">x2</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// Look at the column x=x2-1 separately</span>
+        <span class="n">DP_TOMATO</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">=</span> <span class="n">tomato</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">tomato</span><span class="p">(</span><span class="n">x2</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">y1</span> <span class="o">&lt;</span> <span class="n">y2</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// Look at the row y=y2-1 separately</span>
+        <span class="n">DP_TOMATO</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">=</span> <span class="n">tomato</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">tomato</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y2</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">y2</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="c1">// We are a 1x1.</span>
+        <span class="n">DP_TOMATO</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">=</span> <span class="n">grid</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">y1</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'T'</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">DP_TOMATO</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">];</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">cost</span><span class="p">(</span><span class="kt">int</span> <span class="n">x1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">x2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y2</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">DP_COST</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">!=</span> <span class="n">UNKNOWN</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">DP_COST</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">];</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">x1</span> <span class="o">==</span> <span class="n">x2</span> <span class="o">||</span> <span class="n">y1</span> <span class="o">==</span> <span class="n">y2</span><span class="p">)</span>
+        <span class="c1">// Empty rectangle. Possible in the below recursion so just return 0.</span>
+        <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="c1">// We can always cover the rectangle by using a big square.</span>
+    <span class="kt">int</span> <span class="n">cur_min</span> <span class="o">=</span> <span class="n">MAX</span><span class="p">(</span><span class="n">x2</span><span class="o">-</span><span class="n">x1</span><span class="p">,</span> <span class="n">y2</span><span class="o">-</span><span class="n">y1</span><span class="p">);</span>
+    <span class="n">FOR</span><span class="p">(</span><span class="n">c</span><span class="p">,</span><span class="n">x1</span><span class="p">,</span><span class="n">x2</span><span class="p">)</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">tomato</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">c</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">))</span>
+            <span class="c1">// If this column is tomato, then we can try solving the two subproblems instead by removing the column.</span>
+            <span class="n">cur_min</span> <span class="o">=</span> <span class="n">MIN</span><span class="p">(</span>
+                <span class="n">cur_min</span><span class="p">,</span>
+                <span class="n">cost</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">)</span> <span class="o">+</span> <span class="n">cost</span><span class="p">(</span><span class="n">c</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">y2</span><span class="p">)</span>
+            <span class="p">);</span>
+    <span class="n">FOR</span><span class="p">(</span><span class="n">r</span><span class="p">,</span><span class="n">y1</span><span class="p">,</span><span class="n">y2</span><span class="p">)</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">tomato</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">r</span><span class="o">+</span><span class="mi">1</span><span class="p">))</span>
+            <span class="c1">// If this row is tomato, then we can try solving the two subproblems instead by removing the row.</span>
+            <span class="n">cur_min</span> <span class="o">=</span> <span class="n">MIN</span><span class="p">(</span>
+                <span class="n">cur_min</span><span class="p">,</span>
+                <span class="n">cost</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span> <span class="o">+</span> <span class="n">cost</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">r</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">y2</span><span class="p">)</span>
+            <span class="p">);</span>
+    <span class="n">DP_COST</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">=</span> <span class="n">cur_min</span><span class="p">;</span>
+    <span class="k">return</span> <span class="n">DP_COST</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">];</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+
+    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">l</span> <span class="o">&gt;&gt;</span> <span class="n">w</span><span class="p">;</span>
+    <span class="n">FOR</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">l</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="n">FOR</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">l</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="n">FOR</span><span class="p">(</span><span class="n">x2</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">l</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="n">FOR</span><span class="p">(</span><span class="n">y1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">w</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="n">FOR</span><span class="p">(</span><span class="n">y2</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">w</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">DP_TOMATO</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">=</span> <span class="n">UNKNOWN</span><span class="p">;</span>
+        <span class="n">DP_COST</span><span class="p">[</span><span class="n">x1</span><span class="p">][</span><span class="n">x2</span><span class="p">][</span><span class="n">y1</span><span class="p">][</span><span class="n">y2</span><span class="p">]</span> <span class="o">=</span> <span class="n">UNKNOWN</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">cost</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">w</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></table></code></div></div></div></div></div><h2 id="repetitive-jugglers">Repetitive Jugglers</h2><h3 id="statement-2">Statement</h3><p>Alice is the leader of a juggling crew, and they are set to perform a crazy juggling trick.</p><p>In this trick, every member of the crew starts off with a different coloured ball. Every member then picks another member of the crew (possibly themselves), let us call that member their receiver.</p><p>Then, the trick begins. Every second, every crew member will throw all of the balls they are holding to their designated receiver.</p><p>The trick only stops once everyone has the same ball they started with (Note that not always does this trick stop!)</p><p>Alice wants to know, given who has chosen who as receiver, whether the game will end, and if so, how many seconds this will take.</p><h3 id="input">Input</h3><p>Input will consist of two lines.</p><p>The first line will contain an integer \(n\), the number of members in the juggling crew.</p><p>The second line will then contain \(n\) space-separated integers. The \(i\)th integer represents the \(i\)th crew member’s pick for receiver.</p><p>(So we enumerate crew members \(1, 2, 3\ldots\), and if the second integer is \(1\), that means that crew member \(2\) has chosen \(1\) as their receiver.)</p><p>It is guaranteed that if the trick does stop, <strong>it will stop before \(10^{15}\) seconds have passed</strong></p><h3 id="output">Output</h3><p>If the trick will never finish, print \(-1\). Otherwise, print the total length of the trick, in seconds.</p><h3 id="example-test-1">Example Test</h3><p>Input</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre><td class="rouge-code"><pre>3
+2 1 3
+</pre></table></code></div></div><p>Output</p><div class="language-plaintext highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre>2
+</pre></table></code></div></div><p>After 1 second, person 1 and person 2 throw the balls at each other, and person 3 throws the ball to themselves. As such person 1 is holding person 2’s ball, and person 2 is holding person 1’s ball. Person 3 is holding their own ball.</p><p>After 2 seconds, the same action occurs, and so everyone is holding their own ball.</p><h3 id="hints--solution-2">Hints / Solution</h3><div class="unlock"><p><button class="button_unlock hint">Hint 1</button></p><div class="show"><p><strong>Hint 1</strong></p><p>Since this trick might continue for \(10^{15}\) seconds, we cannot simulate it (Especially with large \(n\)).</p><p>We need to figure out ahead of time when this will occur.</p><p>Notice that if one person receives 2 or more balls at any point in time, the trick will never end.</p></div></div><div class="unlock"><p><button class="button_unlock hint">Hint 2</button></p><div class="show"><p><strong>Hint 2</strong></p><p>Only selections of “receivers” in which every member is the receiver of exactly one member will finish, and they will always finish.</p><p>For math inclined individuals, these receivers represent a permutation of the group, and we want to know how many repeated applications of this permutation are needed to take us back to the identity.</p><p>We can figure out how long this will take based on cycles that are present in the permutation.</p></div></div><div class="unlock"><p><button class="button_unlock solution">Solution</button></p><div class="show"><p><strong>Solution</strong></p><p>Note that if any member recieves two juggling balls, then our sequence can never return to how it was. Therefore everyone must recieve a single ball every second. In other words, our \(n\) space-separated integers must be a <a href="https://www.wikiwand.com/en/Permutation">permutation</a> of the numbers \(1\) through to \(n\). Note that in a permutation, there are multiple distinct cycles of different sizes (For example 1 passes to 3 passes to 7 passes to 4 passes to 1). Notably, everyone in these cycles has their ball every \(k\) seconds, where \(k\) is the length of the cycle.</p><p>Therefore, if we have cycles of length \(k_1, k_2, \ldots k_a\), then the first time the entire sequence will repeat must be the least common multiple of these values \(k_1, k_2, \ldots k_a\) (The first number \(c\), which is divisible by all of \(k1, k2, \ldots, k_a\)).</p><p>So our solution just needs to find each of these cycles, and count their length. Then compute the least common multiple.</p><p>In the sample input, we have a permutation with 2 cycles (1 passes to 2 passes to 1, and 3 passes to 3). These cycles are of length 2 and 1 respectively.</p><p>Therefore every 2 seconds, members 1 and 2 will have their balls, and every second, member 3 will have their ball. Because of this, the answer is the smallest number which is divisible by 2 and 1 (2).</p><div class="code-tab"> <button class="code-tablinks CHALLENGE-3-link" onclick="openCodeTab(event, 'CHALLENGE-3', 'CHALLENGE-3-Python')">Python</button> <button class="code-tablinks CHALLENGE-3-link" onclick="openCodeTab(event, 'CHALLENGE-3', 'CHALLENGE-3-CPP')">CPP</button></div><div id="CHALLENGE-3-Python" class="code-tabcontent CHALLENGE-3"><div class="language-python highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+</pre><td class="rouge-code"><pre><span class="n">n</span> <span class="o">=</span> <span class="nf">int</span><span class="p">(</span><span class="nf">input</span><span class="p">())</span>
+<span class="c1"># make it 0 -&gt; n-1.
+</span><span class="n">choices</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="nf">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nf">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nf">input</span><span class="p">().</span><span class="nf">split</span><span class="p">()))</span>
+
+<span class="c1"># Greatest common divisor
+</span><span class="k">def</span> <span class="nf">gcd</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nf">abs</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nf">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">%</span><span class="n">b</span><span class="p">)</span>
+
+<span class="c1"># Least common multiple
+</span><span class="k">def</span> <span class="nf">lcm</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span> <span class="o">//</span> <span class="nf">gcd</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+
+<span class="c1"># list(set()) will remove duplicates. If no duplicates, then we have a permutation
+</span><span class="k">if</span> <span class="nf">len</span><span class="p">(</span><span class="nf">list</span><span class="p">(</span><span class="nf">set</span><span class="p">(</span><span class="n">choices</span><span class="p">)))</span> <span class="o">==</span> <span class="n">n</span><span class="p">:</span>
+    <span class="c1"># Permutation
+</span>    <span class="c1"># Find the cycle lengths
+</span>    <span class="n">lengths</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">found</span> <span class="o">=</span> <span class="p">[</span><span class="bp">False</span><span class="p">]</span><span class="o">*</span><span class="n">n</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="c1"># Is x not already in a cycle?
+</span>        <span class="k">if</span> <span class="ow">not</span> <span class="n">found</span><span class="p">[</span><span class="n">x</span><span class="p">]:</span>
+            <span class="n">length</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="c1"># Search through the cycle.
+</span>            <span class="n">cur</span> <span class="o">=</span> <span class="n">x</span>
+            <span class="k">while</span> <span class="ow">not</span> <span class="n">found</span><span class="p">[</span><span class="n">cur</span><span class="p">]:</span>
+                <span class="n">found</span><span class="p">[</span><span class="n">cur</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+                <span class="n">length</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="c1"># Move to the next person
+</span>                <span class="n">cur</span> <span class="o">=</span> <span class="n">choices</span><span class="p">[</span><span class="n">cur</span><span class="p">]</span>
+            <span class="n">lengths</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">length</span><span class="p">)</span>
+    <span class="c1"># Print the lcm of all lengths.
+</span>    <span class="n">cur_lcm</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">for</span> <span class="n">length</span> <span class="ow">in</span> <span class="n">lengths</span><span class="p">:</span>
+        <span class="c1"># The lcm of a list is simply the pairwise lcm of each element, combined.
+</span>        <span class="n">cur_lcm</span> <span class="o">=</span> <span class="nf">lcm</span><span class="p">(</span><span class="n">cur_lcm</span><span class="p">,</span> <span class="n">length</span><span class="p">)</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">cur_lcm</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="c1"># Not a permutation
+</span>    <span class="nf">print</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+
+</pre></table></code></div></div></div><div id="CHALLENGE-3-CPP" class="code-tabcontent CHALLENGE-3"><div class="language-cpp highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+</pre><td class="rouge-code"><pre><span class="cp">#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;map&gt;</span><span class="cp">
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="k">typedef</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">ll</span><span class="p">;</span>
+<span class="k">typedef</span> <span class="n">vector</span><span class="o">&lt;</span><span class="n">ll</span><span class="o">&gt;</span> <span class="n">vll</span><span class="p">;</span>
+
+<span class="n">ll</span> <span class="nf">gcd</span><span class="p">(</span><span class="n">ll</span> <span class="n">a</span><span class="p">,</span> <span class="n">ll</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="k">return</span> <span class="n">a</span><span class="p">;</span>
+    <span class="k">return</span> <span class="n">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">%</span><span class="n">b</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="n">ll</span> <span class="nf">lcm</span><span class="p">(</span><span class="n">ll</span> <span class="n">a</span><span class="p">,</span> <span class="n">ll</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">a</span> <span class="o">/</span> <span class="n">gcd</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span> <span class="o">*</span> <span class="n">b</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+
+    <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span><span class="p">;</span>
+
+    <span class="n">vll</span> <span class="n">nums</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="c1">// Make it 0 -&gt; n-1.</span>
+        <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">--</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Check for duplicates</span>
+    <span class="kt">bool</span> <span class="n">bad</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
+    <span class="n">map</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">dup_check</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">dup_check</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">dup_check</span><span class="p">[</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">++</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">dup_check</span><span class="p">[</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+            <span class="c1">// Someone recieves 2.</span>
+            <span class="n">bad</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">bad</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="o">-</span><span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">vll</span> <span class="n">lengths</span><span class="p">;</span>
+        <span class="n">vll</span> <span class="n">found</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="nb">false</span><span class="p">);</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">found</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="p">{</span>
+                <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+                <span class="kt">int</span> <span class="n">cur</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>
+                <span class="k">while</span> <span class="p">(</span><span class="o">!</span><span class="n">found</span><span class="p">[</span><span class="n">cur</span><span class="p">])</span> <span class="p">{</span>
+                    <span class="n">found</span><span class="p">[</span><span class="n">cur</span><span class="p">]</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+                    <span class="n">length</span><span class="o">++</span><span class="p">;</span>
+                    <span class="n">cur</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">cur</span><span class="p">];</span>
+                <span class="p">}</span>
+                <span class="n">lengths</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">length</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="n">ll</span> <span class="n">cur_lcm</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="k">for</span> <span class="p">(</span><span class="n">ll</span> <span class="n">l</span><span class="o">:</span> <span class="n">lengths</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">cur_lcm</span> <span class="o">=</span> <span class="n">lcm</span><span class="p">(</span><span class="n">cur_lcm</span><span class="p">,</span> <span class="n">l</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">cur_lcm</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></table></code></div></div></div></div></div></div><div class="post-tail-wrapper text-muted"><div class="post-meta mb-3"> <i class="far fa-folder-open fa-fw mr-1"></i> <a href='/categories/contests/'>Contests</a></div><div class="post-tail-bottom d-flex justify-content-between align-items-center mt-3 pt-5 pb-2"><div class="license-wrapper"> This post is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPL V3</a> by the author.</div><div class="share-wrapper"> <span class="share-label text-muted mr-1">Share</span> <span class="share-icons"> <a href="https://twitter.com/intent/tweet?text=Challenge Problems - 2021 Sem 2, Contest 1 - Monash Code Binder&url=https://monashaps.github.io//posts/problems-21-s2-c1/" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank" rel="noopener" aria-label="Twitter"> <i class="fa-fw fab fa-twitter"></i> </a> <a href="https://www.facebook.com/sharer/sharer.php?title=Challenge Problems - 2021 Sem 2, Contest 1 - Monash Code Binder&u=https://monashaps.github.io//posts/problems-21-s2-c1/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank" rel="noopener" aria-label="Facebook"> <i class="fa-fw fab fa-facebook-square"></i> </a> <a href="https://telegram.me/share?text=Challenge Problems - 2021 Sem 2, Contest 1 - Monash Code Binder&url=https://monashaps.github.io//posts/problems-21-s2-c1/" data-toggle="tooltip" data-placement="top" title="Telegram" target="_blank" rel="noopener" aria-label="Telegram"> <i class="fa-fw fab fa-telegram"></i> </a> <i class="fa-fw fas fa-link small" onclick="copyLink()" data-toggle="tooltip" data-placement="top" title="Copy link"></i> </span></div></div></div></div></div><div id="panel-wrapper" class="col-xl-3 pl-2 text-muted topbar-down"><div class="access"><div id="access-lastmod" class="post"> <span>Recent Update</span><ul class="post-content pl-0 pb-1 ml-1 mt-2"><li><a href="/posts/dsless-editorial/">DataStructureLess Competition 2023 Editorial</a><li><a href="/posts/uf/">Union Find / DSU</a><li><a href="/posts/dp/">Dynamic Programming</a><li><a href="/posts/lca/">Least Common Ancestor (LCA)</a><li><a href="/posts/factorization/">Primes and Factorization Techniques</a></ul></div><div id="access-tags"> <span>Trending Tags</span><div class="d-flex flex-wrap mt-3 mb-1 mr-3"> <a class="post-tag" href="/tags/difficulty-3/">Difficulty 3</a> <a class="post-tag" href="/tags/difficulty-2/">Difficulty 2</a></div></div></div><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script><div id="toc-wrapper" class="pl-0 pr-4 mb-5"> <span class="pl-3 pt-2 mb-2">Contents</span><nav id="toc" data-toggle="toc"></nav></div></div></div><div class="row"><div class="col-12 col-lg-11 col-xl-8"><div id="post-extend-wrapper" class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4"><div id="related-posts" class="mt-5 mb-2 mb-sm-4"><h3 class="pt-2 mt-1 mb-4 ml-1" data-toc-skip>Further Reading</h3><div class="card-deck mb-4"><div class="card"> <a href="/posts/dsless-editorial/"><div class="card-body"> <span class="timeago small" > Dec 28 <i class="unloaded">2023-12-28T18:00:00+11:00</i> </span><h3 class="pt-0 mt-1 mb-3" data-toc-skip>DataStructureLess Competition 2023 Editorial</h3><div class="text-muted small"><p> Since the intention of the DataStructureLess Competition was to showcase some interesting/unique solve techniques, I thought it would be good to provide some editorial for all of the problems so ev...</p></div></div></a></div><div class="card"> <a href="/posts/uf/"><div class="card-body"> <span class="timeago small" > Dec 15, 2021 <i class="unloaded">2021-12-15T12:00:00+11:00</i> </span><h3 class="pt-0 mt-1 mb-3" data-toc-skip>Union Find / DSU</h3><div class="text-muted small"><p> Where is this useful? In many problems, translating into a graph structure can prove helpful, as we can describe our problem in very abstract terms. Once you’ve translated into this graph structu...</p></div></div></a></div><div class="card"> <a href="/posts/lca/"><div class="card-body"> <span class="timeago small" > Apr 20, 2021 <i class="unloaded">2021-04-20T22:00:00+10:00</i> </span><h3 class="pt-0 mt-1 mb-3" data-toc-skip>Least Common Ancestor (LCA)</h3><div class="text-muted small"><p> Where is this useful? The Least Common Ancestor (LCA) data structure is useful wherever you have a directed graph where every vertex has out-degree \(\leq 1\). In more common terms, each vertex ha...</p></div></div></a></div></div></div><div class="post-navigation d-flex justify-content-between"> <a href="/posts/lca/" class="btn btn-outline-primary" prompt="Older"><p>Least Common Ancestor (LCA)</p></a> <a href="/posts/uf/" class="btn btn-outline-primary" prompt="Newer"><p>Union Find / DSU</p></a></div><div id="disqus" class="pt-2 pb-2"><p class="text-center text-muted small pb-5"> Comments powered by <a href="https://disqus.com/">Disqus</a>.</p></div><script src="/assets/js/lib/jquery.disqusloader.min.js"></script> <script> const options = { scriptUrl: '//mcpc-1.disqus.com/embed.js', disqusConfig: function() { this.page.title = 'Challenge Problems - 2021 Sem 2, Contest 1'; this.page.url = 'https://monashaps.github.io//posts/problems-21-s2-c1/'; this.page.identifier = '/posts/problems-21-s2-c1/'; } }; $.disqusLoader('#disqus', options); </script></div></div></div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> <script type="text/javascript"> const imgs = document.querySelectorAll('.post-content img'); const observer = lozad(imgs); observer.observe(); </script><footer class="d-flex w-100 justify-content-center"><div class="d-flex justify-content-between align-items-center"><div class="footer-left"><p class="mb-0"> © 2023 <a href="https://discord.gg/2CeE5DH8nP">Monash Programming Team</a>. <span data-toggle="tooltip" data-placement="top" title="Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.">Some rights reserved.</span></p></div><div class="footer-right"><p class="mb-0"> Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> with <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a> theme.</p></div></div></footer></div><div id="search-result-wrapper" class="d-flex justify-content-center unloaded"><div class="col-12 col-sm-11 post-content"><div id="search-hints"><h4 class="text-muted mb-4">Trending Tags</h4><a class="post-tag" href="/tags/difficulty-3/">Difficulty 3</a> <a class="post-tag" href="/tags/difficulty-2/">Difficulty 2</a></div><div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div></div></div></div><div id="mask"></div><a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button"> <i class="fas fa-angle-up"></i> </a> <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.7.3/dest/simple-jekyll-search.min.js"></script> <script> SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('search-results'), json: '/assets/js/data/search.json', searchResultTemplate: '<div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-lg-4 pr-lg-4 pl-xl-0 pr-xl-0"> <a href="https://monashaps.github.io/{url}">{title}</a><div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1"> {categories} {tags}</div><p>{snippet}</p></div>', noResultsText: '<p class="mt-5">Oops! No result founds.</p>', templateMiddleware: function(prop, value, template) { if (prop === 'categories') { if (value === '') { return `${value}`; } else { return `<div class="mr-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`; } } if (prop === 'tags') { if (value === '') { return `${value}`; } else { return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`; } } } }); </script>

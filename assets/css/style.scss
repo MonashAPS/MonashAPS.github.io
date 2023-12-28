@@ -146,3 +146,31 @@ td.rouge-gutter {
 td.rouge-code {
   vertical-align: top;
 }
+
+.neutral {
+  background-color: #6666665b;
+  padding: 2px;
+}
+
+.red {
+  background-color: #ff30305b;
+  padding: 2px;
+}
+
+.blue {
+  background-color: #4842ff5b;
+  padding: 2px;
+}
+
+@media (min-width: 1400px) {
+  #main > div.row > div.col-xl-8 {
+    max-width: max(60%, 850px);
+  }
+}
+
+@media (min-width: 1700px) {
+  #panel-wrapper {
+    margin-left: calc((100% - 1150px)/10);
+  }
+}
+

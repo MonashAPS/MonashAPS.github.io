@@ -21,7 +21,7 @@ Each problem has been given a few hints, so you can hopefully have a stab at the
 
 **Hint 1**
 
-Simulating won't be enough, because of the size of $i$. We need to somehow skip most of the previous values.
+Simulating won't be enough, because of the size of \(i\). We need to somehow skip most of the previous values.
 
 </div>
 
